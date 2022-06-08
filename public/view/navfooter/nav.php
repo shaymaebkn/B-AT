@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <title>B&ATraining</title>
 </head>
-<style><?php include 'style.css'; ?></style>
+<style><?php
+ include 'style.css'; ?></style>
 <body>
     <nav>
         <div>
@@ -24,5 +25,3 @@
         </div>
     </nav>
     
-</body>
-</html>

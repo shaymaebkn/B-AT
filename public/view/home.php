@@ -1,1 +1,1 @@
-<?php include'component/nav.php' ?>
+<?php include 'navfooter/nav.php' ?>

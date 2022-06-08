@@ -12,7 +12,7 @@
 <body>
     <nav>
         <div>
-            <img class="logo" src="images/group 16.png" alt="">
+            <a href="../public\view/home.php"><img class="logo" src="images/group 16.png" alt=""></a>
         </div>
         <div>
             <ul class="nav2">
@@ -21,6 +21,8 @@
                 <li><a href=""> Formation</a></li>
                 <li><a href=""> About Us </a></li>
                 <li><button id="login"><a href="login.php"> Login</a></button></li>
+                <li><button id="login"><a href="../admin/navadmine.php"> Admin</a></button></li>
+
             </ul>
         </div>
     </nav>

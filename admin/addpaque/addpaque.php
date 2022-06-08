@@ -38,7 +38,7 @@
         
                     <div class="d-grid">
                         <!-- <input type="hidden" name="oculto" value="1"> -->
-                        <input type="submit" class="btn btn-primary" value="add">
+                        <input type="submit" name="add" class="btn btn-primary" value="add">
                     </div>
                     
 
@@ -59,7 +59,7 @@
                             <th scope="col">Description</th>
                             <th scope="col">Category</th>
                             <th scope="col "colspane="2">Price</th>
-                            <th scope="col">operation</th>
+                            
 
                           </tr>
                       </thead>
@@ -74,8 +74,8 @@
                               <td><?php echo $data['Category']; ?></td>
                               <td><?php echo $data['Price']; ?></td>
                               <td>
-                              <a class="text-success" href="edit.php?id=<?php echo $data['id']; ?>"><i class="bi bi-pencil-square"></i></a>
-                                <a onclick="return confirm('are you sure you wanna delete this row?');" class="text-danger" href="delete.php?id=<?php echo $data['id']; ?>"><i class="bi bi-trash"></i></a>
+                              <a class="text-success" href="edit.php?id=<?php echo $data['paqueid']; ?>"><i class="bi bi-pencil-square"></i></a>
+                                <a onclick="return confirm('are you sure you wanna delete this row?');" class="text-danger" href="delete.php?id=<?php echo $data['paqueid']; ?>"><i class="bi bi-trash"></i></a>
                             </td>
                            </tr>          
                  

@@ -1,8 +1,8 @@
     <?php include '../navadmine.php'; ?>
      <?php 
-    include_once '../../connect/connect.php';
-    $statement = $bd -> query("SELECT * FROM `coach`");
-    $product = $statement->fetchAll(PDO::FETCH_OBJ);
+    include_once '../../connect/connection.php';
+    $requete = "SELECT * FROM `coach`" ;
+    $query = mysqli_query($con,$requete);
     ?> 
     <section>    
             <div class="">
@@ -62,17 +62,20 @@
                       </thead>
                       <tbody>
                       <?php 
-                                foreach($product as $data){ 
+                                foreach($query as $data){ 
                      ?>
                           <tr>
-                              <td scope="row"><?php echo $data->Coachid; ?></td>
-                              <td><?php echo $data->fname; ?></td>
-                              <td><?php echo $data->Lname; ?></td>
-                              <td><?php echo $data->email; ?></td>
-                              <td><?php echo $data->Description; ?></td>
-                              <td><?php echo $data->Speciality; ?></td>
-                              <td><?php echo $data->Password; ?></td>
+                              <td scope="row"><?php echo $data['Coachid']; ?></td>
+                              <td><?php echo $data['fname']; ?></td>
+                              <td><?php echo $data['Lname']; ?></td>
+                              <td><?php echo $data['email']; ?></td>
+                              <td><?php echo $data['Description']; ?></td>
+                              <td><?php echo $data['Speciality']; ?></td>
+                              <td><?php echo $data['Password']; ?></td>
                               <td>
+                              <a class="text-success" href="edit.php?id=<?php echo $data['coachid']; ?>"><i class="bi bi-pencil-square"></i></a>
+                              <a onclick="return confirm('are you sure you wanna delete this row?');" class="text-danger" href="deletecoach.php?id=<?php echo $data['coachid']; ?>"> <i class="bi bi-trash"></i></a>
+                            </td>
                  
                              
                            

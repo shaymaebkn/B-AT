@@ -1,9 +1,9 @@
 <?php
-$con=new mysqli('localhost','root','','projet');  
+$con= mysqli_connect('localhost','root','','projet');  
 
 if($con){
     
-    //  echo 'connection is working';
+     echo 'connection is working';
    
 }
 else{

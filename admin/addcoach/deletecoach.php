@@ -9,10 +9,10 @@
 
     $sql = "DELETE FROM coach where coachid='$id'";
     $query = mysqli_query($con,$sql);
-    if ($query === TRUE) {
-        header('Location: addcoach.php?mensaje=deleted');
-    } else {
-        header('Location: addcoach.php?mensaje=error');
-    }
+    // if ($query === TRUE) {
+    //     header('Location: addcoach.php?mensaje=deleted');
+    // } else {
+    //     header('Location: addcoach.php?mensaje=error');
+    // }
     
 ?>

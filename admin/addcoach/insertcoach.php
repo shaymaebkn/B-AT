@@ -9,6 +9,7 @@
     $description = $_POST['Description'];
     $speciality = $_POST['Speciality'];
     $password = $_POST['Password'];
+    
     $requete = ("INSERT INTO `coach`(`fname`, `Lname`, `email`, `Description`, 
     `Speciality`, `Password`) VALUES ('$fname','$Lname','$email','$description','$speciality','$password')");
     

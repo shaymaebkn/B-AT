@@ -42,7 +42,6 @@ CREATE TABLE `Coach`(
     `Description` TEXT NOT NULL,
     `Speciality` VARCHAR(255) NOT NULL,
     `Password` VARCHAR(255) NOT NULL,
-    `coach` INT NOT NULL,
     `image` VARCHAR(255) NOT NULL
 );
 CREATE TABLE `Data`(

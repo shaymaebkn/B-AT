@@ -1,6 +1,6 @@
-<?php include '../navadmine.php'; ?>
+<?php include 'navadmine.php'; ?>
      <?php
-        include_once '../../connect/connection.php';
+        include_once '../connect/connection.php';
         $requete = "SELECT * FROM `clients`" ;
         $query = mysqli_query($con,$requete);
      ?>

@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotu', sans-serif;
+    
+}
+/* home page */
+a{
+    color: rgb(5, 0, 0);
+    text-decoration: none;
+   
+}
+#login {
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+       
+   
+}
+
+.first{
+    margin-top: 50%;
+}
+.hrr{
+    width: 40%;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#how{
+    background: linear-gradient(to right bottom,#131212,#d2cfd2); 
+}
+.b{
+    margin-top: 7%;
+}
+.rectangle2{
+    width: 5000;
+    height: 110px;
+    background: rgb(255, 255, 255);
+    transform: rotate(-1.94deg);
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* coaching page */
+.logo{
+    width: 50px;
+    height: 40px;
+}
+
+#login {
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+}
+hr{
+
+    height: 10px;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.headerimg{
+    width: 100%;
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    z-index: -1000;
+}
+.header2{
+    color: white;
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 100%;
+}
+#h1header{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    left: 8%;
+    font-weight: bold;
+}
+#h3header{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    left: 19%;
+}
+#headerbutton{
+    display: flex;
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    left: 49%;
+    background-color: #510015;
+    width: 150px;
+    height: 45px;
+    border: 2px solid #510015;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    
+}
+.first{
+    margin-top: 50%;
+}
+
+#firstsection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+.rectangle {
+    width: 100%;
+    height: 120px;
+    background: rgb(255, 255, 255);
+    transform: rotate(-2.94deg);
+    color: black;
+    text-align: center;
+}
+/* #h1rectangle{
+    position: absolute;
+    color: black;
+    text-align: center;
+    right: 10%;
+    left: 19%;
+    top: 1555px;
+
+
+} */
+/* #h1rectangle2{
+   
+
+ position: absolute;
+    color: black;
+    text-align: center;
+    right: 10%;
+    left: 19%;
+    top: 3305px;
+} */

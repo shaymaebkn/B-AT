@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: white;
+
+}
+.linenav{
+    height: 50px;
+    width: 2px;
+    background-color: rgb(87, 85, 85);
+}
+.lineleft{
+    height: 2px;
+    width: 90px;
+    background-color: rgb(87, 85, 85);
+}
+#left{
+    background-color: white;
+    border-radius: 10px;
+    width: 150px;
+}
+#right{
+    background-color: white;
+    border-radius: 10px;
+}
+/* profile page */
+#all{
+    background-color: black;
+}

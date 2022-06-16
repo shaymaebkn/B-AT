@@ -1,15 +1,19 @@
-<?php include 'usernav.php' ?>
 <style><?php include "users.css" ?></style>
- <?php 
+<?php include 'usernav.php' ?>
+<?php 
     include_once '../connect/connection.php';
-    
+   
     if(isset($_SESSION['password']) && isset($_SESSION['email'])) {
 
-        $query=mysqli_query($con,"SELECT * FROM `clients` WHERE email='?'"); 
-?>
-        <body>
-            <div  class="d-flex ">
-                <!-- leftdiv -->
+  
+
+    $query=mysqli_query($con,"SELECT * FROM `clients` WHERE email='?'");
+
+     ?>
+ 
+<body>
+<div id="all"  class="d-flex ">
+                
                 <div id="left" class="p-5 m-2">
                     <div class="d-flex flex-column mb-3">
                         <div class="p-2">
@@ -32,12 +36,17 @@
                     </div>  
                    
                 </div>
-                <!-- right div -->
+                
                 <br>
                 <div id="right" class="p-3 flex-grow-1 m-2 flex-fill">
-                    <div class="container">
-                        <img src="../images/image 6.png" alt="">
+                    <div class="d-flex">
+                        <div class="flex-fill flex-grow-1">
+
+                        </div>
+
                     </div>
+                    
+
 
                 </div>
 
@@ -46,12 +55,16 @@
             
 
 
+</body>
+</html>
 
-        </body>
+
+
      <?php
-            }
-        else{
-        // header('location:login1.php');
+    }
+else{
+// header('location:login1.php');
 
-        }
+}
 ?>
+

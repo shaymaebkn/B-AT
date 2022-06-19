@@ -1,52 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="coaching.css">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
-    <title>B&ATraining</title>
-</head>
-
-<body style="background-color:black ;color: white;">
-    <header>
-        <!-- nav -->
-        <nav class="navbar bg-dark"  style="background-color: black;">
-            <div class="container">
-              <a class="navbar-brand" href="home.html">
-                <img src="../images/group 30.png" alt="" width="80" height="70">
-              </a>
-              <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Coaching</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Programme de regime</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Formation</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link ">Team</a>
-                </li>
-                <li class="nav-item">
-                    <button><a class="nav-link ">Team</a></button>
-                  </li>
-              </ul>
-            </div>
-        </nav>
-       
-        <!-- <li><button id="login"><a href="../auth/registration.php"> register</a></button></li>
-        <li><button id="login"><a href="../admin/navadmine.php"> Admin</a></button></li>  -->
-
+<?php include 'navview.php' ?>
+<header>
         <!-- header2 -->
         <div class="header2">
             <img class="headerimg" src="../images/image 18.png" alt=""> 
-        <h1 id="h1header">WELCOME TO B&ATraining</h1>
+        <h1 id="h1header">Royalty Coaching</h1>
         <h3 id="h3header">we are here to help you exceed your goal</h5>
             <button id="headerbutton" type="button" class="btn btn-primary btn-lg">OUR TEAM</button>
     </div>
@@ -71,8 +28,6 @@
                     Il va également vous faire passer quelques tests physiques (exercices de résistanc <br>
                     musculaire, de souplesse, d’adaptation cardio vasculaire à l’effort…) et, dans le cadre <br>
              </p>
-           
-
             </div>
             <div class="p-2 flex-fill">
                 <img src="../images/Rectangle 60.png" alt="">

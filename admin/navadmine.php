@@ -13,13 +13,13 @@
 <body>
     <nav>
         <div>
-            <a href="../view/home.html"><img class="logo" src="../images/group 16.png" alt=""></a>
+            <a href="../view/home.php"><img class="logo" src="../images/logosvg.svg" alt=""></a>
         </div>
         <div>
             <ul class="nav2">
-                <li><a href="../admin/addpaque.php"> paques</a></li>
-                <li><a href="../admin/addcoach.php"> Coach</a></li>
-                <li><a href="../admin/clients.php"> clients</a></li>
+                <li><a href="addpaque.php"> paques</a></li>
+                <li><a href="addcoach.php"> Coach</a></li>
+                <li><a href="clients.php"> clients</a></li>
               
                 <li><button id="login"><a href="login.php"> Login</a></button></li>
             </ul>

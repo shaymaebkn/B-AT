@@ -27,18 +27,24 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 
        if($row['email']===$email && $row['password']===$password){
         session_start();
-        // if(empty($_SESSION['cart'])){
-        //   $_SESSION['cart'] = [];
-        // }
+      
 
        $_SESSION['email']=$row['email'];
        $_SESSION['fname']=$row['fname'];
        $_SESSION['lname']=$row['lname'];
        $_SESSION['password']=$row['password'];
        $_SESSION['username']=$row['username'];
+
        $_SESSION['Number']=$row['Number'];
-      // $_SESSION['lastName']=$row['lastName'];
-      //  $_SESSION['firstName']=$row['firstName'];
+       $_SESSION['Country']=$row['Country'];
+       $_SESSION['City']=$row['City'];
+       $_SESSION['Age']=$row['Age'];
+       $_SESSION['type_coaching']=$row['type_coaching'];
+       $_SESSION['Height']=$row['Height'];
+       $_SESSION['Weight']=$row['Weight'];
+       $_SESSION['weight_goal']=$row['weight_goal'];
+
+       
        
        header("location:../users/home.php");
       }else{
@@ -54,57 +60,3 @@ if(isset($_POST['email']) && isset($_POST['password'])){
     }
 
     ?>
-
-<!-- // if(isset($_POST['submit'])){
-
-  $email = $_POST['email'];
-  $password = $_POST['password'];
-  $answer = $_POST['user'];  
-  if ($answer == "coaché") {     
-    $Result = mysqli_query($con , "SELECT * FROM `clients` WHERE  email = '$email' AND `password` = '$password");
-  if(mysqli_num_rows($Result)){
-
-    echo"
-    <script>
-    alert('succesfully login');
-    window.location.href= 'users/home.php';
-    </script>
-    ";
-  }else{
-    
-    echo"
-    <script>
-    alert('incoreect your information coaché');
-    window.location.href= 'login.php';
-    </script>
-    ";
-  }
-     
-           
-  }
-   if($answer == "coach"){
-    $Result = mysqli_query($con , "SELECT * FROM `coach` WHERE (`email` ='$email' OR username = '$email' )AND  `Password` ='$password'");
-    if(mysqli_num_rows($Result)){
-      session_start();
-      $_SESSION['user'] = $email;
-  
-      echo"
-      <script>
-      alert('succesfully login');
-      window.location.href= 'view/home.php';
-      </script>
-      ";
-    }else{
-      
-      echo"
-      <script>
-      alert('incoreect your information coach ');
-      window.location.href= 'login.php';
-      </script>
-      ";
-    }
-      
-  }   -->
-  
-// }
-   

@@ -28,3 +28,22 @@ body{
 #all{
     background-color: black;
 }
+#name{
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    height: 50px;
+}
+.lineprofile{
+    height: 100%;
+    width: 90px;
+    background-color: rgb(87, 85, 85);
+}
+#logout{
+    background-color: #C53034;
+    color: white;
+}
+a:link{
+    text-decoration-color: black;
+    text-decoration: none ;
+    
+}

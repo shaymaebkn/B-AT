@@ -5,17 +5,19 @@
     
 }
 /* home page */
-a{
+a:link{
     color: rgb(5, 0, 0);
     text-decoration: none;
-   
 }
+
+
 #login {
     background-color: brown;
     color: white;
     border-radius: 5px;
     width: 50px;
     height: 30px;
+    
        
    
 }
@@ -31,6 +33,7 @@ a{
 footer{
     background-color: black;
     color: white;
+    
 }
 #how{
     background: linear-gradient(to right bottom,#131212,#d2cfd2); 

@@ -4,7 +4,7 @@
         exit();
     }
 
-    include '../../connect/connection.php';
+    include '../connect/connection.php';
     $id = $_GET['id'];
 
     $sql = "DELETE FROM paques where paqueid='$id'";

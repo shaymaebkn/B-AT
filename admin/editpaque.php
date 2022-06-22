@@ -1,8 +1,8 @@
-<?php include '../navadmine.php'; ?>
+<?php include 'navadmine.php'; ?>
 
 <?php
 
- include_once '../../connect/connection.php';
+ include_once '../connect/connection.php';
     if(isset($_GET['id'])){
     $id = $_GET['id'];
     $requete = "SELECT * FROM `paques` where paqueid =$id";
@@ -15,7 +15,7 @@
     }
 ?>
 <div class="card-header">
-                  editar data
+                  edit data
 
                 </div> 
                 <?php 

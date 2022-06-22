@@ -28,6 +28,7 @@
                             <th>type de coaching</th>
                             <th>hours of sleeping</th>
                             <th>physical acitivity</th>
+                            <th>picture</th>
                             <th>password</th>
                             
 
@@ -54,12 +55,13 @@
                               <td><?php echo $data['type_coaching']; ?></td>
                               <td><?php echo $data['hours_sleep']; ?></td>
                               <td><?php echo $data['physical_activity']; ?></td>
+                              <td><?php echo $data['picture']; ?></td>
                               <td><?php echo $data['password']; ?></td>
 
 
 
                               <td>
-                                <a onclick="return confirm('are you sure you wanna delete this row?');" class="text-danger" href="delete.php?id=<?php echo $data['clientid']; ?>"><i class="bi bi-trash"></i></a>
+                                <a onclick="return confirm('are you sure you wanna delete this row?');" class="text-danger" href="deleteclients.php?id=<?php echo $data['clientid']; ?>"><i class="bi bi-trash"></i></a>
                             </td>
                            </tr>          
                  

@@ -4,6 +4,7 @@
 <header>
         <!-- header2 -->
         <div class="header2">
+            
             <img class="headerimg" src="../images/image 4.png" alt="">
             <h1 id="h1header">WELCOME TO Royalty Coaching</h1>
             <h5 id="h3header"></h5>
@@ -13,10 +14,10 @@
     <section class="first"><br>
         <div class="container">
             <div class="hrr"></div><br><br>
-            <h1 style="color: #E12E2E; text-align: center; font-weight: bold;">Train like Royalty Coaching</h1>
+            <h1 style="color: #E12E2E; text-align: center; font-weight: bold;">why Royalty Coaching</h1>
             <div class="d-flex">
                 <div class="p-2 flex-fill"><br>
-                <h4>Royalty coaching assures you a royal workout within you <br>
+                <h4 >Royalty coaching assures you a royal workout within you <br>
                     concocting a tailor-made sports program, adapted to you and <br>
                       to your expectations. His priority is to find the royal sensations <br>
                     which is gifted while enjoying the exercise. royalty coaching <br>
@@ -24,10 +25,10 @@
                       listen and ensure a personalized follow-up, you do not expect <br>
                     you only your desire and your passion</h4>
                 </div>
-                <div class="p-2 flex-fill">
+                <!-- <div class="p-2 flex-fill">
                     <img src="" alt="">
 
-                </div>
+                </div> -->
             </div>
         </div>
     </section> <br><br><br>
@@ -81,38 +82,11 @@
         <div class="hrr"></div><br><br>
     </section>
 
-
-
-
-
-
-
-
-
-
     <!-- footer -->
     <footer >
     
         <div class='d-flex'>
-            <ul class="p-2 flex-fill">
-                <li>coaching personel</li>
-                <li>plan de regim </li>
-                <li>formation</li>
-            </ul>
-            <ul class="p-2 flex-fill">
-                <li>insta</li>
-                <li>fb</li>
-                <li>gmail</li>
-                <li>numero de telephone</li>
-            </ul>
-            <ul class="p-2 flex-fill">
-                <li>Mon 9h-7h</li>
-                <li>Tue 9h-7h</li>
-                <li>thur 9h-7h</li>
-                <li>wed 9h-7h</li>
-                <li>friday 9h-7h</li>
-
-            </ul>
+           <img src="../images/Group 4.svg" alt="" width="100" height="200">
         </div>
         <div class="container" style="background-color: gba(217, 217, 217, 0.22) ;">
             <p style="text-align:center;">copyright 97979</p>

@@ -39,6 +39,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
        $_SESSION['Country']=$row['Country'];
        $_SESSION['City']=$row['City'];
        $_SESSION['Age']=$row['Age'];
+       $_SESSION['picture']=$row['picture'];
        $_SESSION['type_coaching']=$row['type_coaching'];
        $_SESSION['Height']=$row['Height'];
        $_SESSION['Weight']=$row['Weight'];

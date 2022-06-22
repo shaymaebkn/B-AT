@@ -4,15 +4,11 @@
         exit();
     }
 
-    include '../../connect/connection.php';
+    include '../connect/connection.php';
     $id = $_GET['id'];
 
     $sql = "DELETE FROM coach where coachid='$id'";
     $query = mysqli_query($con,$sql);
-    // if ($query === TRUE) {
-    //     header('Location: addcoach.php?mensaje=deleted');
-    // } else {
-    //     header('Location: addcoach.php?mensaje=error');
-    // }
+ 
     
 ?>

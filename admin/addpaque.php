@@ -11,7 +11,7 @@
            <div class="col-md-7">
             <div class="card">
                 <div class="card-header">
-                  enter data of coaches
+                  enter data of paquages
 
                 </div>
                 <form action="insertpaque.php" method="POST" class="p-4">
@@ -74,8 +74,8 @@
                               <td><?php echo $data['Category']; ?></td>
                               <td><?php echo $data['Price']; ?></td>
                               <td>
-                              <a class="text-success" href="edit.php?id=<?php echo $data['paqueid']; ?>"><i class="bi bi-pencil-square"></i></a>
-                                <a onclick="return confirm('are you sure you wanna delete this row?');" class="text-danger" href="delete.php?id=<?php echo $data['paqueid']; ?>"><i class="bi bi-trash"></i></a>
+                              <a class="text-success" href="editpaque.php?id=<?php echo $data['paqueid']; ?>"><i class="bi bi-pencil-square"></i></a>
+                                <a onclick="return confirm('are you sure you wanna delete this row?');" class="text-danger" href="deletepaque.php?id=<?php echo $data['paqueid']; ?>"><i class="bi bi-trash"></i></a>
                             </td>
                            </tr>          
                  

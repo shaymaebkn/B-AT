@@ -10,7 +10,6 @@ a:link{
     text-decoration: none;
 }
 
-
 #login {
     background-color: brown;
     color: white;
@@ -18,8 +17,6 @@ a:link{
     width: 50px;
     height: 30px;
     
-       
-   
 }
 
 .first{
@@ -47,19 +44,8 @@ footer{
     background: rgb(255, 255, 255);
     transform: rotate(-1.94deg);
     color: black;
-    text-align: center;
+    /* text-align: center; */
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -161,23 +147,3 @@ p{
     color: black;
     text-align: center;
 }
-/* #h1rectangle{
-    position: absolute;
-    color: black;
-    text-align: center;
-    right: 10%;
-    left: 19%;
-    top: 1555px;
-
-
-} */
-/* #h1rectangle2{
-   
-
- position: absolute;
-    color: black;
-    text-align: center;
-    right: 10%;
-    left: 19%;
-    top: 3305px;
-} */

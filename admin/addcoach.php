@@ -34,9 +34,12 @@
                         <input type="text" class="form-control" name="Speciality">
                     </div>
                     <div class="mb-3">
+                        <label class="form-label" >picture</label>
+                        <input type="file" class="form-control" name="picture">
+                    </div>
+                    <div class="mb-3">
                         <label class="form-label" >password</label>
                         <input type="password"  name="Password"  id="7a" class="form-control" placeholder="password"  >
-                   
                     
                     <div class="d-grid">
                         <!-- <input type="hidden" name="oculto" value="1"> -->
@@ -57,6 +60,7 @@
                             <th scope="col">email</th>
                             <th scope="col">Description</th>
                             <th scope="col">Speciality</th>
+                            <th scope="col">picture</th>
                             <th scope="col "colspane="2">Password</th>
                           </tr>
                       </thead>
@@ -73,7 +77,7 @@
                               <td><?php echo $data['Speciality']; ?></td>
                               <td><?php echo $data['Password']; ?></td>
                               <td>
-                              <a class="text-success" href="edit.php?id=<?php echo $data['coachid']; ?>"><i class="bi bi-pencil-square"></i></a>
+                              <a class="text-success" href="editcoach.php?id=<?php echo $data['coachid']; ?>"><i class="bi bi-pencil-square"></i></a>
                               <a onclick="return confirm('are you sure you wanna delete this row?');" class="text-danger" href="deletecoach.php?id=<?php echo $data['coachid']; ?>"> <i class="bi bi-trash"></i></a>
                             </td>
                  

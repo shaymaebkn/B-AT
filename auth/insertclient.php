@@ -16,6 +16,7 @@
       $type = $_POST['type'];
       $sleep = $_POST['sleep'];
       $activ = $_POST['activ'];
+      $pic = $_POST['picture'];
       $password = $_POST['password'];
 
     
@@ -38,14 +39,15 @@
         ";
       }
       else{
-       $requet = ("INSERT INTO `clients`(`fname`, `lname`, `username`, `Number`, `email`, `Country`, `City`, 
-       `Age`,`Height`, `Weight`, `weight_goal`, `type_coaching`, `hours_sleep`, `physical_activity`, `password`) 
+       $requet = ("INSERT INTO `clients`( `fname`, `lname`, `username`, `Number`,
+        `email`, `Country`, `City`, `Age`, `Height`, `Weight`, `weight_goal`, `type_coaching`, `hours_sleep`,
+         `physical_activity`, `picture`, `password`) 
         VALUES  ('$fname','$lname','$username','$number','$email','$country','$city','$age','$height',
-        '$weight','$weight_goal','$type','$sleep','$activ','$password')");
+        '$weight','$weight_goal','$type','$sleep','$activ','$pic','$password')");
         
         $query = mysqli_query($con,$requet);
          if ($query === TRUE) {
-             header('Location: registration.php?mensaje=registrado');
+             header('Location: welcome.php?mensaje=registrado');
             echo"sucessful";
          } else {
              header('Location: registration.php?mensaje=error');

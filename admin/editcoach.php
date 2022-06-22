@@ -2,7 +2,7 @@
 
 <?php
 
- include_once '../../connect/connection.php';
+ include_once '../connect/connection.php';
     if(isset($_GET['id'])){
     $id = $_GET['id'];
     $requete = "SELECT * FROM `coach` where coachid =$id";

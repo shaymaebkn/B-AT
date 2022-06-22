@@ -1,11 +1,15 @@
-<?php include 'navview.php' ?>
+<?php include 'navblack.php' ?>
+<style> <?php include 'coaching.css' ?></style>
+
+<body>
 <header>
         <!-- header2 -->
         <div class="header2">
             <img class="headerimg" src="../images/image 18.png" alt=""> 
         <h1 id="h1header">Royalty Coaching</h1>
         <h3 id="h3header">we are here to help you exceed your goal</h5>
-            <button id="headerbutton" type="button" class="btn btn-primary btn-lg">OUR TEAM</button>
+            <button id="headerbutton" type="button" class="btn btn-primary"><a href="team.php" class="text-white">
+                OUR TEAM</a></button>
     </div>
     </header>
     <!-- body -->
@@ -133,35 +137,35 @@
         <div class="d-flex">
             <div class=" flex-fill">
                 
-                <img src="../images/maki_fitness-centre.png" alt="">
+                <img src="../images/maki_fitness-centre.png" alt="" width="80" height="90">
                 <p>fitness</p>
             </div>
             <div class=" flex-fill">
                 <br>
-                <img src="../images/ic_baseline-sports-soccer.png" alt="">
+                <img src="../images/ic_baseline-sports-soccer.png" alt="" width="80" height="90">
                 <p>pilates</p>
             </div>
             <div class=" flex-fill">
-                <img src="../images/iconoir_yoga.png" alt="">
+                <img src="../images/iconoir_yoga.png" alt="" width="80" height="90">
                 <p>yoga</p>
             </div>
             <div class=" flex-fill">
-                <img src="../images/material-symbols_sports-mma.png" alt="">
+                <img src="../images/material-symbols_sports-mma.png" alt="" width="80" height="90">
                 <p>box/self-defense</p>
             </div>
             
             <div class=" flex-fill">
-                <img src="../images/icon-park-solid_sport.png" alt="">
+                <img src="../images/icon-park-solid_sport.png" alt="" width="80" height="90">
                 <p>Formulesur-mesure</p>
             </div>
             <div class="flex-fill">
-                <img src="../images/ic_baseline-sports-score.png" alt="">
+                <img src="../images/ic_baseline-sports-score.png" alt="" width="80" height="90">
                 <p>Running</p>
             </div>
-        </div>
+        </div><br><br>
     </section>
     <!-- section4 -->
-    <section class="container">
+    <!-- <section class="container">
         <hr>
         <div class="row" >
             <div class="col-sm-4">
@@ -183,30 +187,14 @@
               </div>
             </div>
           </div>
-        <hr>
-    </section>
+     
+    </section> -->
     <!-- footer -->
+       <hr>
     <footer >
-        <div class='container d-flex'>
-        <ul class="p-2 flex-fill" >
-            <li>coaching personel</li>
-            <li>plan de regim </li>
-            <li>formation</li>
-        </ul>
-        <ul class="p-2 flex-fill" >
-            <li>insta</li>
-            <li>fb</li>
-            <li>gmail</li>
-            <li>numero de telephone</li>
-        </ul>
-        <ul class="p-2 flex-fill" >
-            <li>Mon 9h-7h</li>
-            <li>Tue 9h-7h</li>
-            <li>thur 9h-7h</li>
-            <li>wed 9h-7h</li>
-            <li>friday 9h-7h</li>
-          
-        </ul>
+       
+    <div class='d-flex'>
+           <img src="../images/Group 4.svg" alt="" width="100" height="200">
         </div>
          <div class="container" style="background-color: gba(217, 217, 217, 0.22) ;">
             <p style="text-align:center;">copyright 97979</p>
@@ -216,3 +204,9 @@
 </body>
 
 </html>
+<style>
+    body{
+        background-color:black;
+        color:white;
+    }
+</style>
